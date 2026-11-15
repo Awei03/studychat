@@ -50,7 +50,7 @@ pnpm build    # 构建生产版本
 3. 新增对话导出功能：将消息列表序列化为 Markdown 并触发浏览器下载
 4. 界面文案全面中文化（含助手角色设置、随机性滑杆等）
 5. 新增 `preset-chip` 样式快捷类（`unocss.config.ts`），统一预设按钮外观
-6. 修复上游依赖兼容问题：原仓库锁定文件已与当前工具链不兼容，通过 `pnpm.overrides` 将 `solid-js` 升级到 1.8，恢复在现代 Node / pnpm 环境下的正常构建
+6. 修复上游依赖兼容问题：原仓库锁定文件已与当前工具链不兼容，通过 `pnpm.overrides` 将 `solid-js` 升级到 1.9，恢复在现代 Node / pnpm 环境下的正常构建
 
 ## License
 
